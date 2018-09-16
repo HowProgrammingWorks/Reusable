@@ -1,2 +1,1 @@
-# Reusable
-Reusable abstractions
+# Reusable abstractions
