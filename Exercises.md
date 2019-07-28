@@ -2,7 +2,7 @@
 
 ## Identifiers
 
-1. Define varible to store your name.
+1. Define variable to store your name.
 2. Define constant to store your birth year.
 3. Prepare function to print greeting with single argument.
 4. Call function passing value.
@@ -21,7 +21,7 @@
 `square(x: number): number` calculating square of x.
 3. Implement function `cube`  with signature
 `cube(x: number): number` calculating cube of x.
-4. Call functions `square` and `cube` in loop, tnen pass their results to
+4. Call functions `square` and `cube` in loop, then pass their results to
 function `average`. Print what `average` returns.
 
 ## Object
@@ -31,17 +31,17 @@ function `average`. Print what `average` returns.
 3. Try to change field `name` and assign other object to both identifiers.
 Explain script behaviour.
 4. Implement function `createUser` with signature
-`createUser(name: string, city: string): object`. For example:
+`createUser(name: string, city: string): object`. Example:
 `createUser('Marcus Aurelius', 'Roma')` will return
 `{ name: 'Marcus Aurelius', city: 'Roma' }`
 
 ## Array
 
 1. Define array of objects with two fields: `name` and `phone` (phone book).
-For example: `{ name: 'Marcus Aurelius', phone: '+380445555555' }`.
+Example: `{ name: 'Marcus Aurelius', phone: '+380445555555' }`.
 2. Implement function `findPhoneByName` with signature
 `findPhoneByName(name: string): string`. Returning phone from that object
-where field `name` equals aursument `name`. Use `for` loop for this search.
+where field `name` equals argument `name`. Use `for` loop for this search.
 
 ## Hash
 
