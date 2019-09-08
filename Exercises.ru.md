@@ -18,7 +18,7 @@
 ## Функции
 
 1. Реализуйте функцию `average` с сигнатурой
-`average(a: number, b: number): number` calculating average (arithmetic mean).
+`average(a: number, b: number): number` вычисляющую среднее арифметическое своих аргументов.
 2. Реализуйте функцию `square` с сигнатурой
 `square(x: number): number` вычисляющую квадрат своего аргумента.
 3. Реализуйте функцию `cube` с сигнатурой
