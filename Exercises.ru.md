@@ -18,7 +18,7 @@
 ## Функции
 
 1. Реализуйте функцию `average` с сигнатурой
-`average(a: number, b: number): number` calculating average (arithmetic mean).
+`average(a: number, b: number): number` вычисляющую среднее арифметическое своих аргументов.
 2. Реализуйте функцию `square` с сигнатурой
 `square(x: number): number` вычисляющую квадрат своего аргумента.
 3. Реализуйте функцию `cube` с сигнатурой
@@ -43,7 +43,7 @@
 1. Объявите массив объектов с двумя полями: `name` и `phone` для хранения
 телефонной книги. Пример: `{ name: 'Marcus Aurelius', phone: '+380445554433' }`
 2. Реализуйте функцию `findPhoneByName` с сигнатурой
-`findPhoneByName(name: string): string`. Вызов функция должна находить объект,
+`findPhoneByName(name: string): string`. При вызове функция должна находить объект,
 где поле `name` равно аргументу `name` и возвращать номер телефона из объекта.
 
 ## Коллекции: хеш-таблицы
