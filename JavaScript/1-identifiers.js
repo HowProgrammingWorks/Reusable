@@ -1,19 +1,10 @@
 'use strict';
 
-const INTERVAL = 500;
-let counter = 0;
-const MAX_VALUE = 10;
-let timer = null;
+let name = 'Arthur';
+const year = 1989;
 
-const event = () => {
-  if (counter === MAX_VALUE) {
-    console.log('The end');
-    clearInterval(timer);
-    return;
-  }
-  console.dir({ counter, date: new Date() });
-  counter++;
-};
+const salutation = name => console.log(`Hello ${name}!`);
 
-console.log('Begin');
-timer = setInterval(event, INTERVAL);
+salutation('Arthur');
+salutation(name);
+salutation(year);

@@ -1,16 +1,9 @@
 'use strict';
 
-const welcome = person => {
-  console.log(`Ave, ${person.name}!`);
+const phoneBook = {
+  'Marcus Aurelius': '+380445554433',
+  'Antoninus Pius': '+380447778563',
+  'Octavianus Augustus': '+380441126236'
 };
 
-const persons = {
-  marcus: { name: 'Marcus Aurelius' },
-  mao: { name: 'Mao Zedong' },
-  rene: { name: 'Rene Descartes' },
-};
-
-for (const name in persons) {
-  const person = persons[name];
-  welcome(person);
-}
+const findPhoneByName = name => phoneBook[name];
