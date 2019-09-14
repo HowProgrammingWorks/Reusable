@@ -6,46 +6,53 @@
 2. Define constant to store your birth year as a number.
 3. Prepare function to print greeting with single argument.
 
-## Loop
+## Loops
 
-4. Print all odd numbers from the range [15, 30] including endpoints.
-5. Implement function `range(start: number, end: number)` doing the same task.
+4. Implement function `range(start: number, end: number): array` returning
+array with all numbers from the range [15, 30] including endpoints.
+5. Implement function `rangeOdd(start: number, end: number)` returning
+array with all odd numbers from the range [15, 30] including endpoints.
 
-## Function
+## Functions
 
-6. Implement function `average` with signature
+6. Call function from function in loop
+- Implement function `average` with signature
 `average(a: number, b: number): number` calculating average (arithmetic mean).
-7. Implement function `square` with signature
+- Implement function `square` with signature
 `square(x: number): number` calculating square of x.
-8. Implement function `cube` with signature
+- Implement function `cube` with signature
 `cube(x: number): number` calculating cube of x.
-9. Call functions `square` and `cube` in loop, then pass their results to
+- Call `square` and `cube` in loop 0 to 9, pass results to function `average`
+on each iteration. Add calculation results to array and return this array from
+function `calculate`.
+
+Call functions `square` and `cube` in loop, then pass their results to
 function `average`. Print what `average` returns.
 
-## Object
+## Objects
 
-10. Define constant object with single field `name`.
-11. Define variable object with single field `name`.
+7. Define constant object with single field `name`.
+8. Define variable object with single field `name`.
 - Try to change field `name`.
 - Try to assign other object to both identifiers.
 - Explain script behaviour.
-12. Implement function `createUser` with signature
+9. Implement function `createUser` with signature
 `createUser(name: string, city: string): object`. Example:
 `createUser('Marcus Aurelius', 'Roma')` will return object
 `{ name: 'Marcus Aurelius', city: 'Roma' }`
 
 ## Collections: Array
 
-13. Define array of objects with two fields: `name` and `phone` (phone book).
+10. Define array of objects with two fields: `name` and `phone` (phone book).
 Example: `{ name: 'Marcus Aurelius', phone: '+380445554433' }`.
-14. Implement function `findPhoneByName` with signature
+11. Implement function `findPhoneByName` with signature
 `findPhoneByName(name: string): string`. Returning phone from that object
 where field `name` equals argument `name`. Use `for` loop for this search.
 
 ## Collections: Hash (Object)
 
-15. Define hash with `key` contains `name` (from previous example) and `value`
+12. Define hash with `key` contains `name` (from previous example) and `value`
 contains `phone`.
-16. Implement function `findPhoneByName` with signature
+13. Implement function `findPhoneByName` with signature
 `findPhoneByName(name: string): string`. Returning phone from hash/object.
 Use `hash[key]` to find needed phone.
