@@ -1,0 +1,11 @@
+({
+  name: 'hello',
+  length: [30, 70],
+  cases: [
+    ['Marcus', undefined],
+  ],
+  test: hello => {
+    const src = hello.toString();
+    if (!src.includes('console.log')) throw new Error('Use console.log');
+  }
+})

@@ -259,5 +259,13 @@
       "error",
       "never"
     ]
-  }
+  },
+  "overrides": [
+    {
+      "files": ["1-let.js"],
+      "rules": {
+        "prefer-const": "off"
+      }
+    }
+  ]
 }
