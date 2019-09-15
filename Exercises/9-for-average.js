@@ -7,9 +7,7 @@ const { cube } = require('./8-cube');
 const result = [];
 
 for (let index = 0; index < 10; index++) {
-  const sq = square(index);
-  const cb = cube(index);
-  result.push(average(sq, cb));
+  result.push(average(square(index), cube(index)));
 }
 
 module.exports = { result };
