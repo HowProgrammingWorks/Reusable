@@ -1,9 +1,13 @@
 'use strict';
 
-const MAX_VALUE = 10;
-
-console.log('Begin');
-for (let i = 0; i < MAX_VALUE; i++) {
-  console.dir({ i, date: new Date() });
+for (let i = 15; i < 30; i +=2) {
+  console.log(i);
 }
-console.log('The end');
+
+const range = (start, end) => {
+  let j = (start % 2 === 0) ? 1 : 0;
+
+  for (let i = start + j; i <= end; i += 2) {
+    console.log(i);
+  }
+};
