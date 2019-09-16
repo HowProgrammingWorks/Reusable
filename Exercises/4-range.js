@@ -1,6 +1,5 @@
 'use strict';
 
-const range = (begin, end) => {
-};
+const range = null;
 
 module.exports = { range };

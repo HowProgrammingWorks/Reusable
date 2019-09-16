@@ -1,0 +1,21 @@
+[
+  {
+    name: 'findPhoneByName',
+    length: [30, 100],
+    test: findPhoneByName => {
+      const src = findPhoneByName.toString();
+      if (!src.includes('for (')) throw new Error('Use for..of to iterate');
+      if (!src.includes('===')) throw new Error('Use === to compare');
+    }
+  },
+  {
+    name: 'phonebook',
+    length: [30, 300],
+    test: phonebook => {
+      const type = typeof phonebook;
+      if (type !== 'object' || !Array.isArray(phonebook)) {
+        throw new Error('phonebook expected to be Array');
+      }
+    }
+  }
+]
