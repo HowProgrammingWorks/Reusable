@@ -1,11 +1,11 @@
 'use strict';
 
-const square = x => undefined;
+const square = null;
 
-const cube = x => undefined;
+const cube = null;
 
-const average = (a, b) => undefined;
+const average = null;
 
-const calculate = () => [];
+const calculate = null;
 
-module.exports = { calculate };
+module.exports = { square, cube, average, calculate };
