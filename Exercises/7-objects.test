@@ -1,0 +1,10 @@
+({
+  name: 'fn',
+  length: [150, 300],
+  test: fn => {
+    const src = fn.toString();
+    if (!src.includes('let')) throw new Error('Declaration let expected');
+    if (!src.includes('const')) throw new Error('Declaration const expected');
+    if (!src.includes('.name')) throw new Error('Assigning name expected');
+  }
+})
