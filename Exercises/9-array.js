@@ -1,7 +1,14 @@
 'use strict';
 
-const phonebook = null;
+const phonebook = [{ name: 'Zuhra', phone: '1111' },
+  { name: 'Leila', phone: '2222' },
+  { name: 'Zulphia', phone: '3333' },
+  { name: 'Gulchitai', phone: '4444' },
+];
 
-const findPhoneByName = null;
-
+const findPhoneByName = n => {
+  for (const e of phonebook) {
+    if (e.name === n) return [e.phone];
+  }
+};
 module.exports = { phonebook, findPhoneByName };
