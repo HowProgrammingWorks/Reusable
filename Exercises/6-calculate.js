@@ -10,7 +10,7 @@ const calculate = () => {
   const array = [];
   for (let i = 0; i < 10; i++) {
     let el = 0;
-    el = average(square(i), cube(i));
+    const el = average(square(i), cube(i));
     array.push(el);
   }
   return array;
