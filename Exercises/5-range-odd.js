@@ -4,7 +4,7 @@
 const rangeOdd = (begin, stop) => {
   const array = [];
   for (let i = begin; i <= stop; i++) {
-    (i % 2) ? array.push(i) : null;
+    if (i % 2 !== 0) ? array.push(i);
   }
   return array;
 };
