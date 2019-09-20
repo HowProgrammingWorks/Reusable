@@ -4,7 +4,7 @@ const square = x => x * x;
 
 const cube = x => x ** 3;
 
-const average = (a, b) => (a + b) / 2.0;
+const average = (a, b) => (a + b) / 2;
 
 const calculate = () => {
   const array = [];
