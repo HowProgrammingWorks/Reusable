@@ -6,7 +6,7 @@ const phonebook = [{ name: 'Zuhra', phone: '1111' },
   { name: 'Gulchitai', phone: '4444' },
 ];
 
-const findPhoneByName = n => {
+const findPhoneByName = name => {
   for (const e of phonebook) {
     if (e.name === n) return [e.phone];
   }
