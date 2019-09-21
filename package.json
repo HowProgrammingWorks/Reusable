@@ -2,7 +2,7 @@
   "name": "example",
   "private": true,
   "version": "1.0.1",
-  "author": "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
+  "author": "Yehor Bublyk <e.bublyk1010@gmail.com>",
   "license": "MIT",
   "scripts": {
     "test": "eslint ./Exercises; hpw"
