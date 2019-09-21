@@ -1,6 +1,6 @@
 'use strict';
 
-const createUser = (name, city) => {
+const createUser = (name, city) => ({ name, city });
   const obj = {
     name,
     city
