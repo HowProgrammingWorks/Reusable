@@ -11,6 +11,4 @@ const findPhoneByName = name => {
   }
 };
 
-console.log(findPhoneByName('Artem'));
-
 module.exports = { phonebook, findPhoneByName };
