@@ -1,7 +1,7 @@
 'use strict';
 
-const phonebook = null;
+const phonebook = new Array();
 
-const findPhoneByName = null;
+const findPhoneByName = name => {};
 
 module.exports = { phonebook, findPhoneByName };
