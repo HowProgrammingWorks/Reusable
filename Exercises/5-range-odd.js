@@ -1,7 +1,7 @@
 'use strict';
 
 const rangeOdd = (start, end) => {
-  let arr = [];
+  const arr = [];
 
   for (let i = start; i <= end; i++) {
     if (i % 2) {
