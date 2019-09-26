@@ -2,7 +2,7 @@
 
 const range = (start, end) => {
   const ar = [];
-  for(let i = 0; i<=(end-start); i++  )
+  for (let i = start; i <= end; i++) {
     ar[i] = start + i;
   return ar;
 };
