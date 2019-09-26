@@ -4,7 +4,7 @@ const range = (start, end) => {
   let arr = [];
 
   for (let i = start; i <= end; i++) {
-    arr = [...arr, start++];
+    arr.push(i);
   }
   return arr;
 };
