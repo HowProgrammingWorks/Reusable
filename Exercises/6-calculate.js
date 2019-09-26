@@ -11,7 +11,7 @@ const calculate = () => {
 
   for (let i = 0; i < 10; i++) {
     const s = square(i);
-    c = cube(i);
+    const c = cube(i);
     arr = [...arr, average(s, c)];
   }
   return arr;
