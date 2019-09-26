@@ -6,7 +6,7 @@ const cube = a => a ** 3;
 
 const average = (a, b) => (a + b) / 2;
 
-const calculate = (s, c) => {
+const calculate = () => {
   let arr = [];
 
   for (let i = 0; i < 10; i++) {
