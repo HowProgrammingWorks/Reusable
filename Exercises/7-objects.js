@@ -12,7 +12,6 @@ const fn = () => {
   user.name = 'OLEG';
   user1.name = 'OLEG';
 
-  user = {};
   user1 = {};
 };
 
