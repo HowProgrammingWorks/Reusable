@@ -7,7 +7,7 @@ const cube = a => a ** 3;
 const average = (a, b) => (a + b) / 2;
 
 const calculate = () => {
-  let arr = [];
+  const arr = [];
 
   for (let i = 0; i < 10; i++) {
     s = square(i);
