@@ -5,7 +5,7 @@ const rangeOdd = (start, end) => {
 
   for (let i = start; i <= end; i++) {
     if (i % 2 !== 0) {
-      arr = [...arr, i];
+      arr.push(i);
     }
   }
   return arr;
