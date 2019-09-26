@@ -1,6 +1,6 @@
 'use strict';
 
-const square = x => (x*x);
+const square = x => x * x;
 
 const cube = x => x ** 3;
 
