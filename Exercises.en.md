@@ -9,9 +9,10 @@
 ## Loops
 
 4. Implement function `range(start: number, end: number): array` returning
-array with all numbers from the range [15, 30] including endpoints.
+array with all numbers from the range start - end (e.g. 15 - 30) including endpoints.
 5. Implement function `rangeOdd(start: number, end: number)` returning
-array with all odd numbers from the range [15, 30] including endpoints.
+array with all odd numbers from the range start - end (e.g. 15 - 30)
+including endpoints.
 
 ## Functions
 
@@ -22,12 +23,10 @@ array with all odd numbers from the range [15, 30] including endpoints.
 `square(x: number): number` calculating square of x.
 - Implement function `cube` with signature
 `cube(x: number): number` calculating cube of x.
-- Call `square` and `cube` in loop 0 to 9, pass results to function `average`
-on each iteration. Add calculation results to array and return this array from
+- Call `square` and `cube` in loop 0 to 9 in order to calculate square and cube
+of the loop variable, on each iteration pass these results to function `average`.
+Add calculation results to array and return this array from
 function `calculate`.
-
-Call functions `square` and `cube` in loop, then pass their results to
-function `average`. Print what `average` returns.
 
 ## Objects
 
