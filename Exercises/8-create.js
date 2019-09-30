@@ -1,5 +1,10 @@
 'use strict';
 
-const createUser = null;
+const createUser = (name, city) => {
+  const a = {};
+  a.name = name;
+  a.city = city;
+  return a;
+};
 
 module.exports = { createUser };
