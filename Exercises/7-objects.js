@@ -1,7 +1,7 @@
 'use strict';
 
 const fn = () => {
-  const a = {name: 'Mass'};
+  const a = { name: 'Mass' };
   let b = {name: null}; 
   a.name = 'Robo';
   b.name = 'Auto';
