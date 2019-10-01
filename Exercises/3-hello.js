@@ -1,6 +1,6 @@
 'use strict';
 
-const hello = function (name) {
+const hello = name => {
 	console.log('Hello, ',name);
 };
 
