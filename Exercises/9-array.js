@@ -10,7 +10,8 @@ const phonebook = [
 const findPhoneByName = (name) => {
     for( const p of phonebook)
     if (p.name === name) {
-        return p;
+    return p;
+  }
 };
 
 findPhoneByName("Marcus Aurelius");
