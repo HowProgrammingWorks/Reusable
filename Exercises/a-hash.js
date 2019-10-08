@@ -1,7 +1,13 @@
 'use strict';
 
-const phonebook = null;
+const phonebook = {
+  nick: '264',
+  niko: '364',
+  niki: '564'
+};
 
-const findPhoneByName = null;
+const findPhoneByName = name => phonebook[name];
+
+console.dir(findPhoneByName('niko'));
 
 module.exports = { phonebook, findPhoneByName };

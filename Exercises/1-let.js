@@ -1,5 +1,3 @@
 'use strict';
-
-let name = undefined;
-
-module.exports = { name };
+let name = 'ilona';
+console.log(name);
