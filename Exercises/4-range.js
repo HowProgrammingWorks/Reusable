@@ -1,5 +1,12 @@
 'use strict';
 
-const range = null;
+
+const range = (start, end) => {
+  const array = [];
+  while (end >= start) {
+    array.push(start++);
+  }
+  return array;
+};
 
 module.exports = { range };
