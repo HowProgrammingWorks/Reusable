@@ -1,19 +1,12 @@
 'use strict';
 
-const INTERVAL = 500;
-let counter = 0;
-const MAX_VALUE = 10;
-let timer = null;
+let name = 'Dmitryi';
+const year = 1978;
 
-const event = () => {
-  if (counter === MAX_VALUE) {
-    console.log('The end');
-    clearInterval(timer);
-    return;
-  }
-  console.dir({ counter, date: new Date() });
-  counter++;
+const HI = name => {
+  console.log('Hello ' + name + ':)');
 };
 
-console.log('Begin');
-timer = setInterval(event, INTERVAL);
+HI('Berg');
+HI(year);
+HI(year)
