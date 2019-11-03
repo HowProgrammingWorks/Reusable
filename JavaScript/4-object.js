@@ -1,13 +1,21 @@
 'use strict';
 
-const welcome = person => {
-  console.log(`Ave, ${person.name}!`);
+const object1 = {
+  name: 'Marcus Aurelius'
+};
+let object2 = {
+  name: 'Antoninus Pius'
 };
 
-const marcus = { name: 'Marcus Aurelius' };
-const mao = { name: 'Mao Zedong' };
-const cartesius = { name: 'Rene Descartes' };
+object1.name = 'Octavianus Augustus';
+object2.name = 'Octavianus Augustus';
 
-welcome(marcus);
-welcome(mao);
-welcome(cartesius);
+//object1 = { name: 'Tiberius Claudius' };
+object2 = {
+  name: 'Caligula'
+};
+
+const createUser = (name, city) => ({
+  name,
+  city
+});
