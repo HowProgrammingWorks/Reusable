@@ -1,14 +1,14 @@
 'use strict';
 
 const phonebook = [
-  { name: 'Marcus Aurelis', phone: '+380445554433' },
-  { name: 'Valeriy Jmishenko', phone: '+380982285427' },
-  { name: 'Denis Petrov', phone: '+380661488228' }
+  { name: 'Marcus', phone: '+380445554433' },
+  { name: 'Valeriy', phone: '+380982285427' },
+  { name: 'Denis', phone: '+380665527456' },
 ];
 
-const findPhoneByName = name => {
+const findPhoneByName = n => {
   for (const i of phonebook) {
-    if(i.name === name) {
+    if (i.name === n) {
       return i.phone;
     }
   }

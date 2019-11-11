@@ -8,8 +8,8 @@ const average = (a, b) => (a + b) / 2;
 
 const calculate = () => {
   const array = [];
-  for(let i = 0; i < 10; i += 1) {
-  array.push(average(square(i), cube(i)));
+  for (let i = 0; i < 10; i += 1) {
+    array.push(average(square(i), cube(i)));
   }
   return array;
 };

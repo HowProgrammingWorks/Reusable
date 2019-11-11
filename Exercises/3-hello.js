@@ -1,6 +1,6 @@
 'use strict';
 
-const hello = (name) => {
+const hello = name => {
   console.log(`Welcome home, ${name}`);
 };
 
