@@ -1,7 +1,7 @@
 # Создайте функцию, которая печатает приветствие и имеет один аргумент: name.
 
 
-def function_for_print_hello(name):
+def function_for_print_hello(name: str):  # Used Type hint
     print('Hello', name)
 
 
