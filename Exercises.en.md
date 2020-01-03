@@ -31,28 +31,28 @@ function `average`. Print what `average` returns.
 
 ## Objects
 
-7. Define constant object with single field `name`.
-8. Define variable object with single field `name`.
+7. Do following tasks inside function `fn` (see stub: `7-objects.js`)
+- Define constant object with single field `name`.
+- Define variable object with single field `name`.
 - Try to change field `name`.
 - Try to assign other object to both identifiers.
 - Explain script behaviour.
-9. Implement function `createUser` with signature
+8. Implement function `createUser` with signature
 `createUser(name: string, city: string): object`. Example:
 `createUser('Marcus Aurelius', 'Roma')` will return object
 `{ name: 'Marcus Aurelius', city: 'Roma' }`
 
-## Collections: Array
+## Collections: Array, Hash (Object)
 
-10. Define array of objects with two fields: `name` and `phone` (phone book).
-Example: `{ name: 'Marcus Aurelius', phone: '+380445554433' }`.
-11. Implement function `findPhoneByName` with signature
+9. Implement phone book using array of records.
+- Define Array of objects with two fields: `name` and `phone`.
+Object example: `{ name: 'Marcus Aurelius', phone: '+380445554433' }`.
+- Implement function `findPhoneByName` with signature
 `findPhoneByName(name: string): string`. Returning phone from that object
 where field `name` equals argument `name`. Use `for` loop for this search.
-
-## Collections: Hash (Object)
-
-12. Define hash with `key` contains `name` (from previous example) and `value`
+A. Implement phone book using hash (also known as `object`).
+- Define hash with `key` contains `name` (from previous example) and `value`
 contains `phone`.
-13. Implement function `findPhoneByName` with signature
+- Implement function `findPhoneByName` with signature
 `findPhoneByName(name: string): string`. Returning phone from hash/object.
 Use `hash[key]` to find needed phone.
