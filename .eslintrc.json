@@ -6,7 +6,10 @@
   },
   "extends": "eslint:recommended",
   "parserOptions": {
-    "ecmaVersion": 2018
+    "ecmaVersion": 2020
+  },
+  "globals": {
+    "BigInt": true
   },
   "rules": {
     "indent": [
@@ -112,6 +115,9 @@
     "new-parens": [
       "error"
     ],
+    "no-lonely-if": [
+      "error"
+    ],
     "no-trailing-spaces": [
       "error"
     ],
@@ -147,7 +153,7 @@
     "space-before-function-paren": [
       "error",
       {
-        "anonymous": "always",
+        "anonymous": "never",
         "named": "never",
         "asyncArrow": "always"
       }
