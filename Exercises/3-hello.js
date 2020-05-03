@@ -1,4 +1,4 @@
 'use strict';
 
-const hello = name => {return `Hello ${name}`};
+const hello = name =>   `Hello ${name}`;
 module.exports = { hello };

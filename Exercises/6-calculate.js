@@ -1,14 +1,14 @@
-"use strict";
+'use strict';
 
-const square = (x) => x * x;
+const square = x => x * x;
 
-const cube = (x) => x ** 3;
+const cube = x => x ** 3;
 
 const average = (a, b) => (a + b) / 2;
 
-let arr = [];
+const arr = [];
 
-const calculate = (x) => {
+const calculate = () => {
   for (let i = 0; i <= 9; i++) {
     const s = square(i);
     const c = cube(i);

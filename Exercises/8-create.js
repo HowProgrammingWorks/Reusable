@@ -1,8 +1,11 @@
-"use strict";
+'use strict';
 
 const createUser = (name, city) => {
-  let obj = { name: name, city: city };
+  const obj = {
+    name,
+    city,
+  };
   return obj;
 };
-createUser("Mark", "Brody");
+createUser('Mark', 'Brody');
 module.exports = { createUser };
