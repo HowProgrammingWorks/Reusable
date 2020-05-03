@@ -1,6 +1,6 @@
 'use strict';
 
-const range = (start, end) => {
+const rangeOdd = (start, end) => {
   const arr = [];
   for (let i = 0; i <= end - start; i++) {
     if ((start + i) % 2 === 1) {
@@ -9,7 +9,7 @@ const range = (start, end) => {
   }
   return arr.filter(Number);
 };
-range(15, 30);
+rangeOdd(15, 30);
 
-module.exports = { range };
+module.exports = { rangeOdd };
 
