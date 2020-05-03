@@ -2,14 +2,14 @@
 
 const rangeOdd = (start, end) => {
   const arr = [];
-  for (let i = 0; i <= end - start; i++) {
-    if ((start + i) % 2 === 1) {
-      arr[i] = start + i;
+  for (let i = start; i <= end; i++) {
+    if ((start + i) % 2 !== 0) {
+      arr.push(i);
     }
   }
-  return arr.filter(Number);
+  return arr;
 };
-rangeOdd(15, 30);
+
 
 module.exports = { rangeOdd };
 
