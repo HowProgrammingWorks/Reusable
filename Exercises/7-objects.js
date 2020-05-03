@@ -3,9 +3,8 @@
 const fn = () => {
   const obj1 = { name: 'Vitalik' };
   let obj2 = { name: 'Oleg' };
-  obj1.name = 'asdasd';
-  obj2.name = 'asdsa123';
-  obj2 = { name: 50 };
+  obj1.name = 'Oleg';
+  obj2.name = 'Vitalik';
+  obj2 = { name: 'Serge' };
 };
-fn();
 module.exports = { fn };
