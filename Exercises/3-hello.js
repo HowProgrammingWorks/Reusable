@@ -1,4 +1,4 @@
 'use strict';
 
-const hello = name =>   `Hello ${name}`;
+const hello = name =>  console.log(`Hello ${name}`);
 module.exports = { hello };
