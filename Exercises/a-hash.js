@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const phonebook = {
   Vitalik: 1234,
@@ -6,6 +6,6 @@ const phonebook = {
 };
 
 const findPhoneByName = name =>  phonebook[name];
-findPhoneByName("Oleg");
+findPhoneByName('Oleg');
 
 module.exports = { phonebook, findPhoneByName };
