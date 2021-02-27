@@ -1,0 +1,157 @@
+[33mcommit 335c530a0b2f2b3e71b87ff1f1ca44fb01a6432f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Kathrin <kathrin.shpigel.90@gmail.com>
+Date:   Wed Sep 18 19:35:26 2019 +0300
+
+    Labs Reusable completed
+
+[33mcommit b2395db4a42bea7d940d965b7d5a9403394a463e[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Musatov Dmitriy <43927899+matroskin062@users.noreply.github.com>
+Date:   Wed Sep 18 01:52:28 2019 +0300
+
+    Spelling
+
+[33mcommit 1bc1764716c9433f5db38c67fe5ee267f930a360[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Tue Sep 17 02:10:26 2019 +0300
+
+    Update dependencies
+
+[33mcommit 4500b24feb2a6f391393636852575b7ba5e3c60a[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Tue Sep 17 02:08:11 2019 +0300
+
+    Add tests
+
+[33mcommit cec65d5d3f23943f74557e1fdee956a4b6b45064[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Tue Sep 17 02:07:39 2019 +0300
+
+    Change tasks
+
+[33mcommit cb9ce4176ef9b6cc7c8f7f480241163e543f78fe[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Mon Sep 16 00:31:32 2019 +0300
+
+    Update dependencies
+
+[33mcommit f068e0fdb942205032856f14f8206b9be59246d4[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Sat Sep 14 08:27:09 2019 +0300
+
+    Add more tests
+
+[33mcommit 112a414d45233b2d37295c333f7921de1e075de6[m
+Merge: 7068144 e05f0eb
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Sat Sep 14 01:18:31 2019 +0300
+
+    Merge branch 'master' of github.com:HowProgrammingWorks/Reusable
+
+[33mcommit 7068144221b85de845515efce15356979f9e3c38[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Sat Sep 14 01:11:35 2019 +0300
+
+    Add tests
+
+[33mcommit 490eafa95fbb2c0aba7e55cffd6278a67342648b[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Sat Sep 14 01:10:55 2019 +0300
+
+    Fix tasks
+
+[33mcommit e05f0eb93fc95a76e4ff41eb44b0c972a055f5a4[m
+Author: Metamodern <42899786+MetaMmodern@users.noreply.github.com>
+Date:   Sun Sep 8 23:17:01 2019 +0300
+
+    Spelling (#2)
+
+[33mcommit f30904515fa89c90313bf60536b31c3893aac154[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Mon Sep 2 14:43:32 2019 +0300
+
+    Add [ru] translation
+
+[33mcommit 6aa0504e5799c9b3703b4b55f719e4915576a21e[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Mon Sep 2 14:43:17 2019 +0300
+
+    Remane [en] version
+
+[33mcommit 2386da84d6f0275a14f0ec872c207ee7d643b934[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Mon Jul 29 23:15:08 2019 +0300
+
+    Update eslint config
+
+[33mcommit b1b74d237f3d2c0b325413781335fb24039312fc[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Sun Jul 28 19:58:17 2019 +0300
+
+    Update eslint config
+
+[33mcommit 62f9c5a3823fd6b0928aff2b92dac72d6c532254[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Sun Jul 28 19:57:53 2019 +0300
+
+    Update license
+
+[33mcommit 29d7f4cd1ba42ff4852734a8dc5f54e1f11f610e[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Sun Jul 28 19:06:18 2019 +0300
+
+    Fix spelling
+
+[33mcommit 0d081bd87c189e1257933c4d67af92703409395e[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Sun Jul 28 19:02:37 2019 +0300
+
+    Put all exercises to single file
+
+[33mcommit 04600afa8cf737590ac777b52b403f908c160726[m
+Merge: 712e92a f87fda2
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Sun Jul 28 18:55:48 2019 +0300
+
+    Merge branch 'master' of github.com:HowProgrammingWorks/Reusable
+
+[33mcommit 712e92a128d50d809e4b59e6f15ce0940df409e4[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Sun Jul 28 18:44:58 2019 +0300
+
+    Add exercises
+
+[33mcommit f87fda27cf71ab9b2a0cd36319d85fd688500fb1[m
+Author: Timur Shemsedinov <timur.shemsedinov@gmail.com>
+Date:   Sun Jun 23 22:26:44 2019 +0300
+
+    Add video
+
+[33mcommit 1594ffa4a70fe44bed9af3c6d08a3620228873c8[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Mon Sep 17 18:44:56 2018 +0300
+
+    Add more examples
+
+[33mcommit 6a9c273e17c439754dfba52b4713dc196b7bfb25[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Mon Sep 17 01:23:50 2018 +0300
+
+    Add examples
+
+[33mcommit 5ffc4f7983ddb98c6f292040f09ed8c8fb1b8ca2[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Mon Sep 17 00:59:32 2018 +0300
+
+    Change license and readme
+
+[33mcommit ae12f4d5ff277f76cbd30169c22b2fd96de51d13[m
+Author: tshemsedinov <timur.shemsedinov@gmail.com>
+Date:   Mon Sep 17 00:58:55 2018 +0300
+
+    Add dotfiles
+
+[33mcommit a080b03e9b903899cc85782da34caa942acb0469[m
+Author: Timur Shemsedinov <timur.shemsedinov@gmail.com>
+Date:   Mon Sep 17 00:54:00 2018 +0300
+
+    Initial commit
