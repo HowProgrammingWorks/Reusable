@@ -1,0 +1,7 @@
+({
+  name: 'name',
+  length: [3, 40],
+  test: name => {
+    if (typeof name !== 'string') throw new Error('Name expected to be string');
+  }
+})

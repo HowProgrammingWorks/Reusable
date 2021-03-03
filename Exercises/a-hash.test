@@ -1,0 +1,20 @@
+[
+  {
+    name: 'findPhoneByName',
+    length: [20, 30],
+    test: findPhoneByName => {
+      const src = findPhoneByName.toString();
+      if (src.includes('for (')) throw new Error('Do not use for loop');
+    }
+  },
+  {
+    name: 'phonebook',
+    length: [10, 150],
+    test: phonebook => {
+      const type = typeof phonebook;
+      if (type !== 'object' || Array.isArray(phonebook)) {
+        throw new Error('phonebook expected to be hash-object');
+      }
+    }
+  }
+]

@@ -1,0 +1,9 @@
+({
+  name: 'year',
+  length: [4, 4],
+  test: year => {
+    if (typeof year !== 'number') throw new Error('Year expected to be number');
+    if (year < 1917) throw new Error('Year expected to be greater than 1917');
+    if (year > 2100) throw new Error('Year expected to be less than 2100');
+  }
+})
