@@ -41,7 +41,6 @@
 `createUser('Marcus Aurelius', 'Roma')` функция должна вернуть объект
 `{ name: 'Marcus Aurelius', city: 'Roma' }`
 
-
 ## Коллекции
 
 9. Реализуйте телефонную книгу на массиве объектов.
