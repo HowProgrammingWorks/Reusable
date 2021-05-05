@@ -9,9 +9,9 @@
 ## Loops
 
 4. Implement function `range(start: number, end: number): array` returning
-array with all numbers from the range [15, 30] including endpoints.
+array with all numbers from range the start to end including endpoints.
 5. Implement function `rangeOdd(start: number, end: number)` returning
-array with all odd numbers from the range [15, 30] including endpoints.
+array with all odd numbers from range the start to end including endpoints.
 
 ## Functions
 
