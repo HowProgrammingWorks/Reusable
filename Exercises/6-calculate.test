@@ -1,6 +1,6 @@
 [{
   name: 'square',
-  length: [10, 10],
+  length: [10, 12],
   cases: [
     [0, 0],
     [1, 1],
@@ -10,7 +10,7 @@
   ]
 }, {
   name: 'cube',
-  length: [11, 11],
+  length: [11, 13],
   cases: [
     [0, 0],
     [1, 1],
