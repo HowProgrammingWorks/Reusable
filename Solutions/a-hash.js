@@ -5,6 +5,6 @@ const phonebook = {
   Timur: '+380661874632',
 };
 
-const findPhoneByName = name => phonebook[name];
+const findPhoneByName = (name) => phonebook[name];
 
 module.exports = { phonebook, findPhoneByName };

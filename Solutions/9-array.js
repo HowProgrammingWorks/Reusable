@@ -5,7 +5,7 @@ const phonebook = [
   { name: 'Timur', phone: '+380661874632' },
 ];
 
-const findPhoneByName = name => {
+const findPhoneByName = (name) => {
   for (const obj of phonebook) {
     if (obj.name === name) return obj.phone;
   }
