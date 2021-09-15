@@ -1,5 +1,6 @@
 'use strict';
 
-const hello = null;
-
+const hello = (name) => {
+  console.log(name);
+};
 module.exports = { hello };
