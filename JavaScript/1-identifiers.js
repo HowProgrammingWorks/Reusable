@@ -1,6 +1,6 @@
 'use strict';
 
-const INTERVAL = 500;
+const INTERVAL = 500000;
 let counter = 0;
 const MAX_VALUE = 10;
 let timer = null;
@@ -16,4 +16,4 @@ const event = () => {
 };
 
 console.log('Begin');
-timer = setInterval(event, INTERVAL);
+timer = setInterval(event, 500);
