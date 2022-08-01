@@ -2,7 +2,7 @@
 
 const rangeOdd = (begin, end) => {
   const len = Math.ceil((end - begin) / 2);
-  if (len < 0) return [];
+  if (len <= 0) return [];
   const array = new Array(len);
   let i = 0;
   for (let n = begin; n <= end; n++) {
