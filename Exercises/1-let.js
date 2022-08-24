@@ -1,5 +1,7 @@
 'use strict';
 
-let name = undefined;
+// Объявите переменную и запишите в нее свое имя как литерал строки.
+
+let name = 'Eduard';
 
 module.exports = { name };
