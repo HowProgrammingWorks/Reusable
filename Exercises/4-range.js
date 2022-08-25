@@ -14,6 +14,4 @@ const range = (start, end) => {
   return array;
 };
 
-// range(15, 20)
-
 module.exports = { range };
