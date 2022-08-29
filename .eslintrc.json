@@ -18,7 +18,7 @@
     ],
     "linebreak-style": [
       "error",
-      "unix"
+      "windows"
     ],
     "quotes": [
       "error",
@@ -267,7 +267,9 @@
   },
   "overrides": [
     {
-      "files": ["1-let.js"],
+      "files": [
+        "1-let.js"
+      ],
       "rules": {
         "prefer-const": "off"
       }
