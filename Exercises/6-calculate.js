@@ -1,11 +1,17 @@
 'use strict';
 
-const square = null;
+const average = (a, b) => (a + b) / 2;
 
-const cube = null;
+const square = (a) => a * a;
 
-const average = null;
+const cube = (a) => a ** 3;
 
-const calculate = null;
+function calculate() {
+  const result = [];
+  for (let i = 0; i < 10; i++) {
+    result[i] = (average(square(i), cube(i)));
+  }
+  return result;
+}
 
 module.exports = { square, cube, average, calculate };
