@@ -1,5 +1,5 @@
 'use strict';
 
-const year = undefined;
+const year = 1973;
 
 module.exports = { year };
